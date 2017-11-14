@@ -45,7 +45,7 @@ if __name__ == '__main__':
     from socket import socket, AF_INET, SOCK_STREAM
 
     sock = socket(AF_INET, SOCK_STREAM)
-    sock.bind(('192.168.1.103',50008))
+    sock.bind(('192.168.1.252',50008))
     sock.listen(5)
     while True:
         conn,addr = sock.accept()
