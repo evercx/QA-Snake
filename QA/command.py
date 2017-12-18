@@ -49,12 +49,7 @@ if __name__ == '__main__':
 
 
         response = mybot.respond(message)
-
-        print("=======")
-        p = os.path.expanduser('~')+'/answer.json'
-        print(p)
         print(response)
-        print("=======")
 
 
         if response == "":
